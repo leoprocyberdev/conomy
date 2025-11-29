@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Conomy</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="graphics.css"> 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC3q2UvJ3/kQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="test">
+    CONOMY INVESTMENTS
+  </div>
+  
+  <section class="auth-page">
+    <div class="auth-container">
+        <h2 id="auth-title">Welcome Back!</h2>
+        
+        <form id="auth-form">
+            
+            <div id="register-fields">
+                <input type="text" id="auth-name" placeholder="Full Name" required>
+                <input type="tel" id="auth-contact" placeholder="Contact/Phone Number" required>
+                <input type="text" id="auth-district" placeholder="District/Location" required>
+            </div>
+            <input type="email" id="auth-email" placeholder="Email Address" required>
+            <input type="password" id="auth-password" placeholder="Password" required>
+            
+            <button type="submit" id="auth-submit-btn">Log In</button>
+        </form>
+        
+        <p class="auth-toggle">
+            Don't have an account? 
+            <span id="toggle-to-register">Register Now</span>
+        </p>
+    </div>
+</section>
+
+  <section class="home">
+    <h1>Welcome to Conomy Investments</h1>
+    <p>Conomy investments is a newly launched platform for investing your money and earn profits on a daily basis</p>
+
+    <div class="home-dashboard">
+        
+        <div class="dashboard-option financial">
+            <div class="icon">💳</div>
+            <div>Wallet</div>
+        </div>
+        <div class="dashboard-option financial">
+            <div class="icon">⬆️</div>
+            <div>Recharge</div>
+        </div>
+        <div class="dashboard-option financial">
+            <div class="icon">⬇️</div>
+            <div>Withdraw</div>
+        </div>
+        <div class="dashboard-option financial">
+            <div class="icon">💲</div>
+            <div>Earning Record</div>
+        </div>
+
+        <div class="dashboard-option feature">
+            <div class="icon">🎁</div>
+            <div>Activity</div>
+        </div>
+        <div class="dashboard-option feature">
+            <div class="icon">🤝</div>
+            <div>Invite Friends</div>
+        </div>
+        <div class="dashboard-option feature">
+            <div class="icon">⚙️</div>
+            <div>Settings</div>
+        </div>
+        <div class="dashboard-option feature">
+            <div class="icon">❓</div>
+            <div>Help Center</div>
+        </div>
+        
+    </div>
+</section>
+  
+  <section class="Products">
+    <div class="product-tabs">
+      <div class="tab active">Product</div>
+      <div class="tab">Record</div>
+    </div>
+
+    <div class="product-list">
+      
+      <div class="product-card featured-card">
+        <div class="featured-bg"></div>
+        <div class="card-content">
+            <h3 class="product-title">Renewable Energy Fund🏠</h3>
+            <div class="product-details">
+                <p>Investment Cycle(Days): <span>30</span></p>
+                <p>Daily Income <span>UGX65,000</span></p>
+                <p>Total Income <span>UGX1,950,000</span></p>
+            </div>
+            <div class="product-actions">
+                <p class="price">Price: <span>UGX1,000,000</span></p>
+                <button class="invest-button">Invest Now</button>
+            </div>
+        </div>
+        <div class="rich-oil-badge">Top Pick</div>
+      </div>
+      
+      <div class="product-card">
+        <div class="product-image-wrapper">
+          <img src="[attachment_0](attachment)" alt="Foods Product" class="product-image">
+          <div class="online-badge">NEW</div>
+        </div>
+        <div class="card-content">
+          <h3 class="product-title">1. Foods & Commodities</h3>
+          <p>Price: <span class="price-val">UGX7,000</span></p>
+          <p>Investment Cycle(Days): <span>3</span></p>
+          <div class="income-details">
+            <p>UGX3,000 <br> Daily Income</p>
+            <p>UGX9,000 <br> Total Income</p>
+            <button class="invest-button small">Invest</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="product-card">
+        <div class="product-image-wrapper">
+          <img src="[attachment_0](attachment)" alt="Foods Product" class="product-image">
+          <div class="online-badge">NEW</div>
+        </div>
+        <div class="card-content">
+          <h3 class="product-title">2. Rentals Portfolio</h3>
+          <p>Price: <span class="price-val">UGX15,000</span></p>
+          <p>Investment Cycle(Days): <span>4</span></p>
+          <div class="income-details">
+            <p>UGX5,000 <br> Daily Income</p>
+            <p>UGX20,000 <br> Total Income</p>
+            <button class="invest-button small">Invest</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-wrapper">
+          <img src="[attachment_1](attachment)" alt="Electronics Product" class="product-image">
+        </div>
+        <div class="card-content">
+          <h3 class="product-title">3. Electronics Supply Chain</h3>
+          <p>Price: <span class="price-val">UGX30,000</span></p>
+          <p>Investment Cycle(Days): <span>7</span></p>
+          <div class="income-details">
+            <p>UGX5,500 <br> Daily Income</p>
+            <p>UGX38,500 <br> Total Income</p>
+            <button class="invest-button small">Invest</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-wrapper">
+          <img src="[attachment_2](attachment)" alt="Agriculture Product" class="product-image">
+          <div class="online-badge">PREMIUM</div>
+        </div>
+        <div class="card-content">
+          <h3 class="product-title">4. Agriculture Farming Fund</h3>
+          <p>Price: <span class="price-val">UGX50,000</span></p>
+          <p>Investment Cycle(Days): <span>7</span></p>
+          <div class="income-details">
+            <p>UGX10,000 <br> Daily Income</p>
+            <p>UGX70,000 <br> Total Income</p>
+            <button class="invest-button small">Invest</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="product-card">
+        <div class="product-image-wrapper">
+          <img src="[attachment_3](attachment)" alt="Education Product" class="product-image">
+        </div>
+        <div class="card-content">
+          <h3 class="product-title">5. Education Development</h3>
+          <p>Price: <span class="price-val">UGX80,000</span></p>
+          <p>Investment Cycle(Days): <span>10</span></p>
+          <div class="income-details">
+            <p>UGX10,000 <br> Daily Income</p>
+            <p>UGX100,000 <br> Total Income</p>
+            <button class="invest-button small">Invest</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-wrapper">
+          <img src="[attachment_4](attachment)" alt="Transportation Product" class="product-image">
+        </div>
+        <div class="card-content">
+          <h3 class="product-title">6. Transportation Logistics</h3>
+          <p>Price: <span class="price-val">UGX100,000</span></p>
+          <p>Investment Cycle(Days): <span>10</span></p>
+          <div class="income-details">
+            <p>UGX15,000 <br> Daily Income</p>
+            <p>UGX150,000 <br> Total Income</p>
+            <button class="invest-button small">Invest</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-wrapper">
+          <img src="[attachment_5](attachment)" alt="Technology Product" class="product-image">
+        </div>
+        <div class="card-content">
+          <h3 class="product-title">7. Technology Ventures</h3>
+          <p>Price: <span class="price-val">UGX200,000</span></p>
+          <p>Investment Cycle(Days): <span>10</span></p>
+          <div class="income-details">
+            <p>UGX30,000 <br> Daily Income</p>
+            <p>UGX300,000 <br> Total Income</p>
+            <button class="invest-button small">Invest</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="product-card">
+        <div class="product-image-wrapper">
+          <img src="[attachment_6](attachment)" alt="Real Estates Product" class="product-image">
+          <div class="online-badge">HOT</div>
+        </div>
+        <div class="card-content">
+          <h3 class="product-title">8. Real Estates Property</h3>
+          <p>Price: <span class="price-val">UGX500,000</span></p>
+          <p>Investment Cycle(Days): <span>20</span></p>
+          <div class="income-details">
+            <p>UGX35,000 <br> Daily Income</p>
+            <p>UGX700,000 <br> Total Income</p>
+            <button class="invest-button small">Invest</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image-wrapper">
+          <img src="[attachment_7](attachment)" alt="Renewable Energy Product" class="product-image">
+        </div>
+        <div class="card-content">
+          <h3 class="product-title">9. Renewable Energy Fund</h3>
+          <p>Price: <span class="price-val">UGX1,000,000</span></p>
+          <p>Investment Cycle(Days): <span>30</span></p>
+          <div class="income-details">
+            <p>UGX65,000 <br> Daily Income</p>
+            <p>UGX1,950,000 <br> Total Income</p>
+            <button class="invest-button small">Invest</button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+ <section class="my-products">
+    <h2 class="section-title">My Active Investments</h2>
+    
+    <div class="my-product-list">
+        
+        <div class="my-product-card active-status">
+            <div class="card-header">
+                <h3 class="product-name">Rentals Portfolio (Active)</h3>
+                <span class="status-badge active">In Progress</span>
+            </div>
+            <div class="card-details">
+                <p>Investment Amount: <span class="amount">UGX150,000</span></p>
+                <p>Daily Income: <span class="income">UGX15,000</span></p>
+                <p>Cycle Progress: <span class="progress">12 / 30 Days</span></p>
+            </div>
+            <div class="card-footer">
+                <p class="total-earned">Total Earned: <span>UGX180,000</span></p>
+                <button class="view-details-btn">View Details</button>
+            </div>
+        </div>
+
+        <div class="my-product-card finished-status">
+            <div class="card-header">
+                <h3 class="product-name">Electronics Supply Chain</h3>
+                <span class="status-badge finished">Completed</span>
+            </div>
+            <div class="card-details">
+                <p>Investment Amount: <span class="amount">UGX100,000</span></p>
+                <p>Daily Income: <span class="income">UGX20,000</span></p>
+                <p>Cycle Progress: <span class="progress">7 / 7 Days</span></p>
+            </div>
+            <div class="card-footer">
+                <p class="total-earned">Total Earned: <span>UGX140,000</span></p>
+                <button class="re-invest-btn">Re-invest</button>
+            </div>
+        </div>
+        
+        <div class="my-product-card pending-status">
+            <div class="card-header">
+                <h3 class="product-name">Agriculture Farming Fund</h3>
+                <span class="status-badge pending">Pending Activation</span>
+            </div>
+            <div class="card-details">
+                <p>Investment Amount: <span class="amount">UGX250,000</span></p>
+                <p>Daily Income: <span class="income">UGX8,000</span></p>
+                <p>Cycle Progress: <span class="progress">0 / 45 Days</span></p>
+            </div>
+            <div class="card-footer">
+                <p class="total-earned">Activation Date: <span>Today 4:00 PM</span></p>
+                <button class="cancel-btn">Cancel Investment</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="empty-state" style="display: none;">
+        <div class="icon">😭</div>
+        <p>You haven't invested in any products yet.</p>
+        <button class="invest-now-btn">Explore Products</button>
+    </div>
+
+</section>
+
+  <section class="my-team">
+    
+    <div class="team-metrics-header">
+        <h2 class="section-title">Team Performance</h2>
+        <div class="metrics-grid">
+            <div class="metric-box">
+                <p class="metric-value">120</p>
+                <p class="metric-label">Total Team Size</p>
+            </div>
+            <div class="metric-box">
+                <p class="metric-value">UGX250,000</p>
+                <p class="metric-label">Total Commission</p>
+            </div>
+            <div class="metric-box">
+                <p class="metric-value">UGX15,000</p>
+                <p class="metric-label">Today's Income</p>
+            </div>
+        </div>
+        
+        <button class="invite-button">Invite Friends Now</button>
+    </div>
+    
+    <div class="team-tabs">
+        <div class="team-tab active" data-tier="1">Tier 1 (25)</div>
+        <div class="team-tab" data-tier="2">Tier 2 (50)</div>
+        <div class="team-tab" data-tier="3">Tier 3 (45)</div>
+    </div>
+    
+    <div class="team-list">
+        
+        <div class="team-member-card">
+            <div class="member-info">
+                <div class="icon">👤</div>
+                <div class="details">
+                    <p class="username">InvitedUser_A</p>
+                    <p class="join-date">Joined: 2025-10-01</p>
+                </div>
+            </div>
+            <div class="member-performance">
+                <p class="investment">Invested: <span class="amount">UGX500K</span></p>
+                <p class="commission">Commission: <span class="amount">UGX50K</span></p>
+            </div>
+        </div>
+        
+        <div class="team-member-card">
+            <div class="member-info">
+                <div class="icon">👤</div>
+                <div class="details">
+                    <p class="username">InvitedUser_B</p>
+                    <p class="join-date">Joined: 2025-10-15</p>
+                </div>
+            </div>
+            <div class="member-performance">
+                <p class="investment">Invested: <span class="amount">UGX100K</span></p>
+                <p class="commission">Commission: <span class="amount">UGX10K</span></p>
+            </div>
+        </div>
+        
+        <div class="team-member-card">
+            <div class="member-info">
+                <div class="icon">👤</div>
+                <div class="details">
+                    <p class="username">InvitedUser_C</p>
+                    <p class="join-date">Joined: 2025-11-20</p>
+                </div>
+            </div>
+            <div class="member-performance">
+                <p class="investment">Invested: <span class="amount">UGX0</span></p>
+                <p class="commission">Commission: <span class="amount">UGX0</span></p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+  <section class="me">
+    <div class="profile-header">
+        <div class="user-info">
+            <img src="" alt="User Avatar" class="avatar">
+            <div class="details">
+                <h3 class="username">User12345</h3>
+                <p class="id">ID: 887766</p>
+            </div>
+        </div>
+        <div class="level-badge">VIP 1</div>
+    </div>
+    
+  <ul class="me-menu-list">
+        
+        <li class="menu-item">
+            <div class="item-content">
+                <div class="icon">🧾</div> 
+                <span><a href="#recharge">Recharge record</a></span>
+            </div>
+            <div class="arrow"> &gt; </div>
+        </li>
+        
+        <li class="menu-item">
+            <div class="item-content">
+                <div class="icon">🗓️</div>
+                <span>Withdrawal record</span>
+            </div>
+            <div class="arrow"> &gt; </div>
+        </li>
+        
+        <li class="menu-item">
+            <div class="item-content">
+                <div class="icon">💰</div>
+                <span>Balance bill</span>
+            </div>
+            <div class="arrow"> &gt; </div>
+        </li>
+        
+        <li class="menu-item separator">
+            <div class="item-content">
+                <div class="icon">💬</div>
+                <span>FAQ</span>
+            </div>
+            <div class="arrow"> &gt; </div>
+        </li>
+        
+        <li class="menu-item">
+            <div class="item-content">
+                <div class="icon">🔒</div>
+                <span>Change Password</span>
+            </div>
+            <div class="arrow"> &gt; </div>
+        </li>
+        
+        <li class="menu-item">
+            <div class="item-content">
+                <div class="icon">✍️</div>
+                <span>Feedback</span>
+            </div>
+            <div class="arrow"> &gt; </div>
+        </li>
+        
+        <li class="menu-item separator">
+            <div class="item-content">
+                <div class="icon">ℹ️</div>
+                <span>About Us</span>
+            </div>
+            <div class="arrow"> &gt; </div>
+        </li>
+        
+        <li class="menu-item">
+            <div class="item-content">
+                <div class="icon">📜</div>
+                <span>Term of use</span>
+            </div>
+            <div class="arrow"> &gt; </div>
+        </li>
+        
+        <li class="menu-item">
+            <div class="item-content">
+                <div class="icon">📱</div>
+                <span>APP Download</span>
+            </div>
+            <div class="arrow"> &gt; </div>
+        </li>
+        
+        <li class="menu-item sign-out">
+            <div class="item-content">
+                <div class="icon">➡️</div>
+                <span>Sign out</span>
+            </div>
+            <div class="arrow"> &gt; </div>
+        </li>
+        
+    </ul>
+</section>
+
+<section class="recharge-page">
+    <div class="header">
+        <h2 class="page-title">💰 Fund Account</h2>
+    </div>
+
+    <div class="balance-display">
+        <p>Current Balance</p>
+        <p class="current-balance-value">UGX <span id="user-current-balance">0</span></p>
+    </div>
+
+    <div class="recharge-form-container">
+        <h3>Deposit Request</h3>
+        <form id="recharge-form">
+            
+            <label for="recharge-amount">Recharge Amount (UGX)</label>
+            <input type="number" id="recharge-amount" min="1000" placeholder="Minimum: UGX 1,000" required>
+            
+            <label for="payment-method">Payment Method (Mobile Money)</label>
+            <input type="text" id="payment-method" value="MTN Mobile Money" readonly>
+
+            <label for="momo-number">Mobile Money Number</label>
+            <input type="tel" id="momo-number" placeholder="Enter your registered number" required>
+
+            <button type="submit" id="recharge-submit-btn">Request Deposit</button>
+        </form>
+    </div>
+
+    <div class="note">
+        <p>Processing Note:</p>
+        <ul>
+            <li>Deposits are processed manually or via external gateway integration.</li>
+            <li>Please ensure the Mobile Money Number matches your registered account.</li>
+        </ul>
+    </div>
+</section>
+
+
+  <section class="foot-bar">
+    <div class="nav active">
+      <div class="icon">🏠</div>
+      <div>Home</div>
+    </div>
+    <div class="nav">
+      <div class="icon">👜</div>
+      <div>Products</div>
+    </div>
+    <div class="nav">
+      <div class="icon">💰</div>
+      <div>My products</div>
+      <span class="notification-badge">11</span> 
+    </div>
+    <div class="nav">
+      <div class="icon">🧑🧑</div>
+      <div>My team</div>
+    </div>
+    <div class="nav">
+      <div class="icon">👤</div>
+      <div>Me</div>
+    </div>
+  </section>
+  <script src="firebase-init.js" type="module"></script>
+<script src="script.js" type="module"></script>
+</body>
+</html>
+
