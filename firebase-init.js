@@ -1,9 +1,8 @@
 // firebase-init.js
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js";
 import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-auth.js";
-import { getFirestore, collection, query, where, getDocs, getDoc, setDoc, doc, serverTimestamp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
+import { getFirestore, collection, query, where, getDocs, getDoc, setDoc, doc, serverTimestamp, addDoc, runTransaction, increment, orderBy } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
 
 
 // Your web app's Firebase configuration
@@ -37,5 +36,9 @@ export {
     setDoc,
     doc,
     getDoc,
-    serverTimestamp
+    serverTimestamp,
+    addDoc,
+    runTransaction,
+    increment,
+    orderBy
 };
